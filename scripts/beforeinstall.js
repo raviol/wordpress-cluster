@@ -16,7 +16,6 @@ var resp = {
 if (${settings.galera:false}) {
   resp.nodes.push({
     nodeType: "mariadb-dockerized",
-    tag: "10.3.20",
     count: 3,
     flexibleCloudlets: ${settings.db_flexibleCloudlets:8},
     fixedCloudlets: ${settings.db_fixedCloudlets:1},
@@ -35,7 +34,6 @@ if (${settings.galera:false}) {
 if (!${settings.galera:false}) {
   resp.nodes.push({
     nodeType: "mariadb-dockerized",
-    tag: "10.3.20",
     count: 2,
     flexibleCloudlets: ${settings.db_flexibleCloudlets:8},
     fixedCloudlets: ${settings.db_fixedCloudlets:1},
@@ -49,7 +47,6 @@ if (!${settings.galera:false}) {
 if (${settings.ls-addon:false}) {
   resp.nodes.push({
     nodeType: "litespeedadc",
-    tag: "2.5.1",
     count: 1,
     flexibleCloudlets: ${settings.bl_flexibleCloudlets:8},
     fixedCloudlets: ${settings.bl_fixedCloudlets:1},
@@ -63,7 +60,6 @@ if (${settings.ls-addon:false}) {
     }
   }, {
     nodeType: "litespeedphp",
-    tag: "5.4.1-php-7.3.7",
     count: ${settings.cp_count:2},
     flexibleCloudlets: ${settings.cp_flexibleCloudlets:16},
     fixedCloudlets: ${settings.cp_fixedCloudlets:1},
@@ -93,7 +89,6 @@ if (${settings.ls-addon:false}) {
 if (!${settings.ls-addon:false}) {
   resp.nodes.push({
     nodeType: "nginx-dockerized",
-    tag: "1.16.0",
     count: 1,
     flexibleCloudlets: ${settings.bl_flexibleCloudlets:8},
     fixedCloudlets: ${settings.bl_fixedCloudlets:1},
