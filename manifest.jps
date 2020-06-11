@@ -5,7 +5,7 @@ categories:
   - apps/clusters
   - apps/content-management
 description: 
-  text: WordPress Cluster Kit with built-in choice of servers, database clustering and scaling mode to create optimal environment for highly-loaded projects. The package provides integrated autoscaling and high availability for development and production environments. Clustered topology ensures effective handling of heavy workload.
+  text: 2WordPress Cluster Kit with built-in choice of servers, database clustering and scaling mode to create optimal environment for highly-loaded projects. The package provides integrated autoscaling and high availability for development and production environments. Clustered topology ensures effective handling of heavy workload.
   short: WordPress Cluster with built-in kit for choosing optimal servers, database clustering type, scaling mode and a set of advanced features for highly-loaded projects
 logo: https://raw.githubusercontent.com/raviol/wordpress-cluster/master/images/wp-cluster-kit.png
 baseUrl: https://raw.githubusercontent.com/raviol/wordpress-cluster/master
