@@ -1,4 +1,4 @@
-# Highly Available and Auto-Scalable WordPress Cluster123
+# Highly Available and Auto-Scalable WordPress Cluster123345
 
 Out-of-the-box automated Enterprise WordPress Cluster solution for large businesses and mission-critical sites 
 
